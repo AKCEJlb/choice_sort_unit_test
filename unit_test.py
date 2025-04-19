@@ -7,6 +7,7 @@ class TestSort(unittest.TestCase):
     def test_sort(self):
         sorter = Sorter()
 
+    	# Мок для метода логирования, теперь записи в файл не будет, только в консоль
         sorter.log = self.mock_log
 
         # Тест на пустом массиве
